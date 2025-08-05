@@ -1,6 +1,6 @@
 # LetterGroup
 
-Organize data results from raw sql queries (as with PGresult, or Dossier) intelligently.
+Organize data results from raw sql queries (as with PGresult, or Dossier) intelligently.  Or even simple arrays of hashes.
 
 | Project                 |  LetterGroup    |
 |------------------------ | ----------------- |
@@ -50,7 +50,23 @@ Or install it yourself as:
 
 ## Usage
 
-See specs for usage examples.
+Here's a silly example.  You did a raw SQL query and don't know how to see the result, and somehow Google isn't working right now (!):
+
+```
+[1] pry(main)> ActiveRecord::Base.connection.execute("select localtimestamp at time zone 'UTC'")
+   (1.9ms)  select localtimestamp at time zone 'UTC'
+=> #<PG::Result:0x007fbde1b9b170 @connection=#<PG::Connection:0x007fbdfa9aee70 @notice_processor=nil, @notice_receiver=nil, @socket_io=nil>>
+```
+
+Oh Noes!  `LetterGroup::Group` is a can opener.  Use it.
+
+```
+[9] pry(main)> LetterGroup::Group.new(ActiveRecord::Base.connection.execute("select localtimestamp at time zone 'UTC'")).rows
+   (0.5ms)  select localtimestamp at time zone 'UTC'
+=> {nil=>[{"timezone"=>"2015-10-17 20:06:39.212512+00"}]}
+ ```
+
+See specs for more real world usage examples.
 
 ## Development
 
