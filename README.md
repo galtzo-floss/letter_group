@@ -9,22 +9,16 @@ Organize data results from raw sql queries (as with PGresult, or Dossier) intell
 | expert support          |  [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/peterboling?utm_source=github&utm_medium=button&utm_term=peterboling&utm_campaign=github) |
 | download rank               |  [![Total Downloads](https://img.shields.io/gem/rt/letter_group.svg)](https://rubygems.org/gems/letter_group) |
 | version                 |  [![Gem Version](https://badge.fury.io/rb/letter_group.png)](http://badge.fury.io/rb/letter_group) |
-| dependencies            |  [![Dependency Status](https://gemnasium.com/pboling/letter_group.png)](https://gemnasium.com/pboling/letter_group) |
-| code quality            |  [![Code Climate](https://codeclimate.com/github/pboling/letter_group.png)](https://codeclimate.com/github/pboling/letter_group) |
-| inline documenation     |  [![Inline docs](http://inch-ci.org/github/pboling/letter_group.png)](http://inch-ci.org/github/pboling/letter_group) |
-| continuous integration  |  [![Build Status](https://secure.travis-ci.org/pboling/letter_group.png?branch=master)](https://travis-ci.org/pboling/letter_group) |
 | test coverage           |  [![Coverage Status](https://coveralls.io/repos/pboling/letter_group/badge.png)](https://coveralls.io/r/pboling/letter_group) |
 | homepage                |  [on Github.com][homepage] |
 | documentation           |  [on Rdoc.info][documentation] |
 | live chat               |  [![Join the chat at https://gitter.im/pboling/letter_group](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pboling/letter_group?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) |
-| Spread ~♡ⓛⓞⓥⓔ♡~      |  [🌏](https://about.me/peter.boling), [👼](https://angel.co/peter-boling), [:shipit:](http://coderwall.com/pboling), [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo), [🌹](https://nationalprogressiveparty.org) |
+| Spread ~♡ⓛⓞⓥⓔ♡~      |  [🌏](https://about.me/peter.boling), [👼](https://angel.co/peter-boling), [![Tweet Peter](https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow)](http://twitter.com/galtzo) |
 
 [semver]: http://semver.org/
 [pvc]: http://docs.rubygems.org/read/chapter/16#page74
 [railsbling]: http://www.railsbling.com
 [peterboling]: http://www.peterboling.com
-[coderbits]: https://coderbits.com/pboling
-[coderwall]: http://coderwall.com/pboling
 [documentation]: http://rdoc.info/github/pboling/letter_group/frames
 [homepage]: https://github.com/pboling/letter_group
 
